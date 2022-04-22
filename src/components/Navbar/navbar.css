@@ -1,0 +1,42 @@
+.navbar{
+    width: 100%;
+    height: max-content;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav_1, .nav_3{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+    border: .5px solid rgb(142, 142, 142) ;
+}
+.navIcon{
+    color: rgb(110, 110, 110);
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+    
+}
+.nav_2{
+    flex: 6;
+}
+
+.nav_2 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav_2 ul li{
+    margin-right: 15px;
+}
