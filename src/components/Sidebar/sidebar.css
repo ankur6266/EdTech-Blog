@@ -1,8 +1,8 @@
 .sidebar{
     flex: 3;
     margin: 20px;
-    background-color: rgb(227, 255, 253);
-    border: 1px solid rgb(158, 219, 215);
+    /* background-color: rgb(227, 255, 253); */
+    border: 1px solid rgb(162, 162, 162);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -39,14 +39,15 @@
     cursor: pointer;
 }
 .sidebarSocial{
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .sidebarIcon{
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 15px;
     cursor: pointer;
 }

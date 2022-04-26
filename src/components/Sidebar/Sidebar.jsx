@@ -1,5 +1,5 @@
 import './sidebar.css'
-import thumbnail from './images/thumbnail.jpg'
+import thumbnail from '../../images/thumbnail.jpg'
 export default function Sidebar() {
   return (
     <div className='sidebar'>
