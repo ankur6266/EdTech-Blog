@@ -1,6 +1,6 @@
 .navbar{
     width: 100%;
-    height: max-content;
+    height: 50px;
     position: sticky;
     top: 0;
     display: flex;
@@ -33,13 +33,16 @@
     flex: 6;
 }
 
-.nav_2 ul{
+.topList{
     display: flex;
     justify-content: center;
     list-style: none;
 }
-.nav_2 ul li{
+.topListItem{
     margin-right: 30px;
+}
+.nav_2 ul li i{
+    margin-right: 5px;
 }
 .fa-instagram-square{
     color: rgb(255, 0, 89);

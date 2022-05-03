@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className='header'>
         <div className='headerTitle'>
-            <span className='smHeaderTitle'>React & Node</span>
+            <span className='smHeaderTitle'>Ed-tech</span>
             <span className='lgHeaderTitle'>Blog</span>
         </div>
         <img className='headerImg' alt='heading background'
