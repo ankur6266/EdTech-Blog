@@ -1,6 +1,6 @@
 import './post.css'
 
-export default function Post() {
+export default function Post({post}) {
   return (
     <div className='post'>
         <img className='postImage' alt='' src='https://fiorecommunications.com/wp-content/uploads/2014/07/shutterstock_381746308-3.jpg' />
@@ -9,7 +9,7 @@ export default function Post() {
                 <span className='postCat'>Sports</span>
                 <span className='postCat'>Technology</span>
             </div>
-            <span className='postTitle'>Pariatur irure sint enim</span>
+            <span className='postTitle'>{post.title}</span>
             <hr />
             <span className='postDate'>1 hour ago</span>
         </div>
